@@ -1,0 +1,97 @@
+/* CSS styles for the calculator appearance */
+
+/* Heading */
+.calculator-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Body styling */
+body {
+    background-color: #f4f3f6;
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator styling */
+.calculator {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+}
+
+/* Display styling */
+#display {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 75px;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Display styling */
+.calculator-display {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Button container styling */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+/* Button styling */
+button {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Button hover styling */
+button:hover {
+    background-color: #ccc;
+}
+
+/* Operator button styling */
+button.operator {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+/* Operator button hover styling */
+button.operator:hover {
+    background-color: #f57c00;
+}
+
+/* Clear button styling */
+button.clear {
+    background-color: #f44336;
+    color: #fff;
+}
+
+/* Clear button hover styling */
+button.clear:hover {
+    background-color: #d32f2f;
+}
